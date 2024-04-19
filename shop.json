@@ -49,6 +49,7 @@
                         {
                             "Id": "stegodandy.aaronshop_Wildbait",
                             "ItemId": "(O)774",
+                            "Condition": "DAY_OF_WEEK Monday",
                             "Price": 25,
                             "AvailableStock": 20,
                             "AvailableStockLimit": "Player"
@@ -99,6 +100,270 @@
                             "Condition": "DAY_OF_WEEK Friday",
                             "Price": 450,
                             "AvailableStock": 5,
+                            "AvailableStockLimit": "Player"
+                        },
+                                        {
+                            "Id": "stegodandy.aaronshop_Eel",
+                            "ItemId": "(O)148",
+                            "Condition": "DAY_OF_WEEK Monday, SEASON Winter",
+                            "Price": 255,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "stegodandy.aaronshop_Eel",
+                            "ItemId": "(O)148",
+                            "Condition": "DAY_OF_WEEK Monday, SEASON Winter",
+                            "Price": 255,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+        {
+                            "Id": "stegodandy.aaronshop_Wool",
+                            "ItemId": "(O)440",
+                            "Condition": "DAY_OF_WEEK Monday, DAYS_PLAYED 48",
+                            "Price": 1050,
+                            "AvailableStock": 2,
+                            "AvailableStockLimit": "Player"
+                        },
+        {
+                            "Id": "stegodandy.aaronshop_Melon",
+                            "ItemId": "(O)254",
+                            "Condition": "DAY_OF_WEEK Monday, SEASON Spring Winter",
+                            "Price": 800,
+                            "AvailableStock": 5,
+                            "AvailableStockLimit": "Player"
+                        },
+        {
+                            "Id": "stegodandy.aaronshop_Riceshoots",
+                            "ItemId": "(O)273",
+                            "Condition": "DAY_OF_WEEK Tuesday",
+                            "Price": 50,
+                            "AvailableStock": 10,
+                            "AvailableStockLimit": "Player"
+                        },
+        {
+                            "Id": "stegodandy.aaronshop_Coffeebean",
+                            "ItemId": "(O)433",
+                            "Condition": "DAY_OF_WEEK Tuesday",
+                            "Price": 100,
+                            "AvailableStock": 2,
+                            "AvailableStockLimit": "Player"
+                        },
+        {
+                            "Id": "stegodandy.aaronshop_Coal",
+                            "ItemId": "(O)382",
+                            "Condition": "DAY_OF_WEEK Tuesday",
+                            "Price": 30,
+                            "AvailableStock": 20,
+                            "AvailableStockLimit": "Player"
+                        },
+        {
+                            "Id": "stegodandy.aaronshop_Crab",
+                            "ItemId": "(O)717",
+                            "Condition": "DAY_OF_WEEK Tuesday",
+                            "Price": 300,
+                            "AvailableStock": 3,
+                            "AvailableStockLimit": "Player"
+                        },
+        {
+                            "Id": "stegodandy.aaronshop_Solarpanel",
+                            "ItemId": "(BC)231",
+                            "Condition": "DAY_OF_WEEK Wednesday, IS_COMMUNITY_CENTER_COMPLETE, DAYS_PLAYED 112",
+                            "Price": 40000,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+            {
+                            "Id": "stegodandy.aaronshop_FrozenGeode",
+                            "ItemId": "(O)536",
+                            "Condition": "DAY_OF_WEEK Wednesday",
+                            "Price": 300,
+                            "AvailableStock": 5,
+                            "AvailableStockLimit": "Player"
+                        },
+            {
+                            "Id": "stegodandy.aaronshop_Bomb",
+                            "ItemId": "(O)287",
+                            "Condition": "DAY_OF_WEEK Wednesday, DAYS_PLAYED 24",
+                            "Price": 250,
+                            "AvailableStock": 10,
+                            "AvailableStockLimit": "Player"
+                        },
+            {
+                            "Id": "stegodandy.aaronshop_Cookies",
+                            "ItemId": "(O)223",
+                            "Condition": "DAY_OF_WEEK Wednesday",
+                            "Price": 200,
+                            "AvailableStock": 2,
+                            "AvailableStockLimit": "Player"
+                        },
+            {
+                            "Id": "stegodandy.aaronshop_MossySeed",
+                            "ItemId": "MossySeed",
+                            "Condition": "DAY_OF_WEEK Wednesday",
+                            "Price": 125,
+                            "AvailableStock": 3,
+                            "AvailableStockLimit": "Player"
+                        },
+            {
+                            "Id": "stegodandy.aaronshop_Moss",
+                            "ItemId": "Moss",
+                            "Condition": "DAY_OF_WEEK Wednesday",
+                            "Price": 30,
+                            "AvailableStock": 20,
+                            "AvailableStockLimit": "Player"
+                        },
+            {
+                            "Id": "stegodandy.aaronshop_AncientSeeds",
+                            "ItemId": "(O)114",
+                            "Condition": "DAY_OF_WEEK Thursday, DAYS_PLAYED 24",
+                            "Price": 5000,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+            {
+                            "Id": "stegodandy.aaronshop_OakResin",
+                            "ItemId": "(O)725",
+                            "Condition": "DAY_OF_WEEK Thursday",
+                            "Price": 350,
+                            "AvailableStock": 3,
+                            "AvailableStockLimit": "Player"
+                        },
+            {
+                            "Id": "stegodandy.aaronshop_OceanJelly",
+                            "ItemId": "OceanJelly",
+                            "Condition": "DAY_OF_WEEK Thursday",
+                            "Price": 1000,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+            {
+                            "Id": "stegodandy.aaronshop_Coffee",
+                            "ItemId": "(O)395",
+                            "Condition": "DAY_OF_WEEK Thursday",
+                            "Price": 450,
+                            "AvailableStock": 3,
+                            "AvailableStockLimit": "Player"
+                        },
+            {
+                            "Id": "stegodandy.aaronshop_PinkCake",
+                            "ItemId": "(O)221",
+                            "Condition": "DAY_OF_WEEK Thursday",
+                            "Price": 2500,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+            {
+                            "Id": "stegodandy.aaronshop_TeaSapling",
+                            "ItemId": "(O)251",
+                            "Condition": "DAY_OF_WEEK Friday, IS_COMMUNITY_CENTER_COMPLETE",
+                            "Price": 7000,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+            {
+                            "Id": "stegodandy.aaronshop_MagmaGeode",
+                            "ItemId": "(O)536",
+                            "Condition": "DAY_OF_WEEK Friday",
+                            "Price": 450,
+                            "AvailableStock": 5,
+                            "AvailableStockLimit": "Player"
+                        },
+            {
+                            "Id": "stegodandy.aaronshop_DollGreen",
+                            "ItemId": "(O)126",
+                            "Condition": "DAY_OF_WEEK Friday",
+                            "Price": 3000,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+            {
+                            "Id": "stegodandy.aaronshop_MahoganySeed",
+                            "ItemId": "(O)292",
+                            "Condition": "DAY_OF_WEEK Friday",
+                            "Price": 250,
+                            "AvailableStock": 3,
+                            "AvailableStockLimit": "Player"
+                        },
+            {
+                            "Id": "stegodandy.aaronshop_CaveJelly",
+                            "ItemId": "CaveJelly",
+                            "Condition": "DAY_OF_WEEK Friday",
+                            "Price": 1000,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+            {
+                            "Id": "stegodandy.aaronshop_Obsidian",
+                            "ItemId": "(O)575",
+                            "Condition": "DAY_OF_WEEK Saturday, DAYS_PLAYED 48",
+                            "Price": 1000,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+            {
+                            "Id": "stegodandy.aaronshop_TripleEspresso",
+                            "ItemId": "(O)253",
+                            "Condition": "DAY_OF_WEEK Saturday",
+                            "Price": 900,
+                            "AvailableStock": 3,
+                            "AvailableStockLimit": "Player"
+                        },
+            {
+                            "Id": "stegodandy.aaronshop_OstrichEgg",
+                            "ItemId": "(O)289",
+                            "Condition": "DAY_OF_WEEK Saturday, IS_COMMUNITY_CENTER_COMPLETE",
+                            "Price": 2000,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+            {
+                            "Id": "stegodandy.aaronshop_StrawbSeed",
+                            "ItemId": "(O)745",
+                            "Condition": "DAY_OF_WEEK Saturday",
+                            "Price": 300,
+                            "AvailableStock": 5,
+                            "AvailableStockLimit": "Player"
+                        },
+            {
+                            "Id": "stegodandy.aaronshop_RiverJelly",
+                            "ItemId": "RiverJelly",
+                            "Condition": "DAY_OF_WEEK Saturday",
+                            "Price": 1000,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+            {
+                            "Id": "stegodandy.aaronshop_SquidInk",
+                            "ItemId": "(O)814",
+                            "Condition": "DAY_OF_WEEK Sunday",
+                            "Price": 350,
+                            "AvailableStock": 4,
+                            "AvailableStockLimit": "Player"
+                        },
+            {
+                            "Id": "stegodandy.aaronshop_SmMagRing",
+                            "ItemId": "(O)518",
+                            "Condition": "DAY_OF_WEEK Sunday",
+                            "Price": 500,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+            {
+                            "Id": "stegodandy.aaronshop_Poppy",
+                            "ItemId": "(O)376",
+                            "Condition": "DAY_OF_WEEK Sunday",
+                            "Price": 340,
+                            "AvailableStock": 2,
+                            "AvailableStockLimit": "Player"
+                        },
+            {
+                            "Id": "stegodandy.aaronshop_ModelShip",
+                            "ItemId": "(F)1367",
+                            "Condition": "DAY_OF_WEEK Sunday, DAYS_PLAYED 48",
+                            "Price": 400,
+                            "AvailableStock": 1,
                             "AvailableStockLimit": "Player"
                         },
                     ]
