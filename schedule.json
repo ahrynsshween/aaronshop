@@ -1,0 +1,17 @@
+	  {
+"Changes":
+	[
+ 
+   	 {
+        	"LogName": "Aaron_Schedule",
+        	"Action": "EditData",
+        	"Target": "Characters/schedules/aaronshop",
+   		 "Entries": {
+   			 
+   			 "rain": "700 Custom_aaronshop_Aaronmain 1 4 0/1100 Custom_aaronshop_Aaronmain 4 5 2",
+   			 "spring": "700 Custom_aaronshop_Aaronmain 1 4 0/1000 Custom_aaronshop_Aaronmain 4 5 2",
+   			 
+   		 },
+    	},
+],
+}

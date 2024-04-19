@@ -1,0 +1,85 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "stegodandy.aaronshop_CustomShop": {
+                    "Owners": [
+                        {
+                            "Name": "aaronshop",
+                            "Dialogues": [
+                                // dialogue on sunny summer days
+                                {
+                                    "Id": "stegodandy.aaronshop_rainyday",
+                                    "Condition": "WEATHER rain",
+                                    "Dialogue": "Let's wrap this up fast so you can get dry."
+                                },
+
+                                // dialogue any other time
+                                {
+                                    "Id": "stegodandy.aaronshop_Default",
+                                    "Dialogue": "I've found some cool stuff. Take a look!"
+                                }
+                            ]
+                        }
+                    ],
+
+                    "Items": [
+                        // ice-cream in summer, default price
+                        {
+                            "Id": "stegodandy.aaronshop_Autopetter",
+                            "Condition": "IS_COMMUNITY_CENTER_COMPLETE, DAYS_PLAYED 112, DAY_OF_WEEK Monday",
+                            "ItemId": "(BC)272",
+                            "Price": 40000,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+
+                        },
+
+                        // pufferfish for 1000g, limited to one per day per player
+                        {
+                            "Id": "stegodandy.aaronshop_Quartz",
+                            "ItemId": "(O)80",
+                            "Condition": "DAY_OF_WEEK Tuesday",
+                            "Price": 75,
+                            "AvailableStock": 5,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "stegodandy.aaronshop_Wildbait",
+                            "ItemId": "(O)774",
+                            "Price": 25,
+                            "AvailableStock": 20,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "stegodandy.aaronshop_Pumpkinsoup",
+                            "ItemId": "(O)236",
+                            "Condition": "SEASON fall",
+                            "Price": 450,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "stegodandy.aaronshop_Batterypack",
+                            "ItemId": "(O)787",
+                            "Condition": "DAYS_PLAYED 56",
+                            "Price": 1200,
+                            "AvailableStock": 3,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "stegodandy.aaronshop_Jade",
+                            "ItemId": "(O)70",
+                            "Condition": "DAY_OF_WEEK Tuesday",
+                            "Price": 500,
+                            "AvailableStock": 10,
+                            "AvailableStockLimit": "Player"
+                        },
+                    ]
+                }
+            }
+        }
+    ]
+}

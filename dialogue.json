@@ -1,0 +1,112 @@
+ {
+"Changes": 
+    [
+ 
+		{
+            "LogName": "",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/aaronshop",
+			"Entries": {
+
+//Conversation Topics
+	//Vanilla
+	"Introduction":"You must be the new guy everyone's talking about!$0#$b#It's nice to finally meet ya.$1",
+        "cc_Begin": "You must be the new guy everyon's talking about! It's nice to finally meet you.",
+	"cc_Boulder": "",
+	"cc_Bridge": "",
+	"cc_Bus": "Ya know, I thought I heard ome weird noises recently... You think it's related to the bus being fixed?",
+	"cc_Greenhouse": "",
+	"cc_Minecart": "",
+	"cc_Complete": "I'm glad teh Community Center is fixed. Now those lil guys have a place to go...",
+	"movieTheater": "Now I don't have to go all the way to the city to see 'Blue Rat 3'.",
+	"willyCrabs": "",
+	"pamHouseUpgrade": "",
+	"pamHouseUpgradeAnonymous": "",
+	//Vanilla+ (More CTs, 1.6 strings)
+	"railroadEarthquake": "Did you feel that tremor recently? Wonder what it was...",
+	"islandResortUnlocked": "",
+	"jojaMartStruckByLightning": "Joja deserved it.",
+	"babyBoy": "",
+	"babyGirl": "",
+	"wedding": "",
+	"event_postweddingreception": "",
+	"luauBest": "",
+	"luauShorts": "Pfft... $1",
+	"luauPoisoned": "Ugh... I should have known...$2",
+	"Characters_MovieInvite_Invited": "Really? Heck yeah! Can we get popcorn?$1",
+	"DumpsterDiveComment": "Lost in the sauce, are ya?",
+	"SpouseStardrop": "",
+	"FlowerDance_Accept_Spouse": "",
+    "FlowerDance_Accept": "",
+	"FlowerDance_Decline": "Really? With me?$7#$b#Well... maybe if i get an update...$4",
+	
+
+// GENERIC DIALOGUE
+    "Mon": "I feel on level with a certain orange cat...$2", 
+    "Tue": "Sorry, didn't see you there! I was lost in thought about a project.",
+    "Wed": "*Aaron is deep in thought and doesn't notice you*",
+    "Thu": "Sorry, was I in your way?",
+    "Fri": "You want to talk? To me???",
+    "Sat": "Have you ventured into the mines yet? There are a bunch of really cool geodes and minerals down there.",
+    "Sun": "Heya. Find anything neat laying around at %farm?",
+
+    "Mon2": "Hey! It's nice to see you.", 
+    "Tue2": "Nobody really comes to the woods, so if you ever wanna hang out, I'm always free!",
+    "Wed2": "I think I ate a bad mushroom the other day... I keep seeing these little bugs running through the grass.",
+    "Thu2": "",
+    "Fri2": "",
+    "Sat2": "",
+    "Sun2": "",
+
+    "Mon4": "", 
+    "Tue4": "Do you think these goggles make me look dumb?$9#$e#Be honest.$9",
+    "Wed4": "",
+    "Thu4": "The wizard saw me chasing those bugs the other day... It's embarassing, but he could see them too, so at least I'm not going crazy.",
+    "Fri4": "",
+    "Sat4": "The code fo rmy project has been coming along nicely! It's... also lots of fun. I hope Sebastian doesn't think I'm annoying...",
+    "Sun4": "",
+
+    "Mon6": "",
+    "Tue6": "Thanks got being friends with me, @.$6",
+    "Wed6": "",
+    "Thu6": "",
+    "Fri6": "Do you think I'd get along with the townspeople? What if they find me strange?",
+    "Sat6": "I started giving the bugs food. They seem to like raisins the best. I'm a garlic man myself, but they're cute so it's hard to complain!",
+    "Sun6": "",
+
+    "Mon8": "",
+    "Tue8": "",
+    "Wed8": "",
+    "Thu8": "Why do people think I'm talking about a bicycle?$3#$e#That garage isn't there for no reason.$1",
+    "Fri8": "",
+    "Sat8": "",
+    "Sun8": "",
+
+    "Mon10": "",
+    "Tue10": "",
+    "Wed10": "",
+    "Thu10": "",
+    "Fri10": "",
+    "Sat10": "",
+    "Sun10": "",   
+	
+	"rain":  "{{Random: Hi, @! Wow, you're wet! && Oh hey! Nice weather, huh? Everything feels calmer when it rains. && You smell that? it's called 'petrichor'. It always calms me down. |inputSeparator=&&}}",
+   
+
+	// SPECIFIC DAY DIALOGUE
+	"spring_1": "Spring is here...$0#$b#...and so are my allergies.$2",
+	"summer_1": "$d bus# The bus may be fixed, but I still prefer to ride my bike.|It's the perfect weather for a bike ride, don't you think?",
+	"fall_1": "It's finally chilly enough fo rme to wear my jacket again.",
+	"winter_1": "Wow... It NEVER snowed like this back in teh city!$1",
+	"spring_12": "Are you EGGcited for tomorrow?$1", // Day before the Egg Festival
+	"spring_23": "The flower dance is tomorrow...$2#$b#I may not have a dance partner, but at least everything gets decorated all pretty!$1", // Day before the Flower Dance
+	"summer_10": "I wonder if Sam's gonna put something weird in the soup again...$3", // Day before the Luau
+	"summer_27": "The Midnight Jelly festival has to be my favorite part of summer.$0#$b#The sight is more valuble than anything I've ever found$6", // Day before the Midnight Jellies
+	"fall_15": "", // Day before the Stardew Fair
+	"fall_26": "Are you going to dress up for Spirit's Eve? I didnt have time to put together something new, so I'm just using the same costume as last year...", // Day before Spirit's Eve
+	"winter_7": "", // Day before the Ice Festival
+	"winter_24": "This time of year always makes me miss my family.$2", // Day before Winter Star
+			}
+        }
+    ]
+}

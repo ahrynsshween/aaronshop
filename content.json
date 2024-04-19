@@ -1,0 +1,147 @@
+{
+    "Format": "2.0.6",
+  "CustomLocations": [
+   {
+     "Name": "Custom_aaronshop_Aaronmain", //ALWAYS include 'Custom_' at the beginning of your map name, this will reflect the name used in-game.
+     "FromMapFile": "Assets/Maps/Aaronmain.tmx", //You don't need to add the 'Custom' bit to this, this is just where your map is located in your folder.
+   },
+   {
+     "Name": "Custom_aaronshop_Aaronbed", //ALWAYS include 'Custom_' at the beginning of your map name, this will reflect the name used in-game.
+     "FromMapFile": "Assets/Maps/Aaronbed.tmx", //You don't need to add the 'Custom' bit to this, this is just where your map is located in your folder.
+   },
+],
+    "Changes": [
+          {
+        	"LogName": "Blank Json Load",
+        	"Action": "Load",
+        	"Target": "Characters/Dialogue/aaronshop, Characters/schedules/aaronshop, Strings/schedules/aaronshop",
+        	"FromFile": "assets/data/blank.json",
+   	 },
+         {
+        	"LogName": "aaron exists",
+   		 "Action": "Include",
+   		 "FromFile": "assets/data/dispos.json"
+    	},
+        {
+        	"LogName": "Base Portraits",
+        	"Action": "Load",
+        	"Target": "Portraits/aaronshop",
+        	"FromFile": "assets/aaronshop.png",
+   	 },
+{
+        	"LogName": "Base Portraits",
+        	"Action": "Load",
+        	"Target": "Characters/aaronshop",
+        	"FromFile": "assets/aaronshopsprites.png",
+   	 },
+{
+        	"LogName": "NPC Dialogue",
+   		 "Action": "Include",
+   		 "FromFile": "assets/data/dialogue.json"
+    	},
+	{
+        	"LogName": "NPC Schedule",
+   		 "Action": "Include",
+   		 "FromFile": "assets/data/schedule.json"
+    	},
+{
+   		 "LogName": "Gift Tastes Include",
+   		 "Action": "Include",
+   		 "FromFile": "assets/data/gifttastes.json"
+   	 },
+{
+        	"LogName": "shop",
+        	"Action": "Include",
+        	"FromFile": "assets/data/shop.json",
+         },
+ {
+            "Action": "EditMap",
+            "Target": "Maps/Forest", //The Name of the Ingame Map you are editing
+            "FromFile": "assets/maps/Forestedit.tmx", //the location of your tmx file
+            "FromArea": {
+                "X": 106,
+                "Y": 81,
+                "Width": 7,
+                "Height": 4
+            },
+            "ToArea": {
+                "X": 106,
+                "Y": 81,
+                "Width": 7,
+                "Height": 4
+            },
+           },
+   {
+     "Action": "EditMap",
+     "Target": "Maps/Forest", //Target the map you're adding your house to.
+     "MapTiles": [
+       {
+         "Position": { //The first coordinates we saved in the tutorial. 
+           "X": 45,
+           "Y": 9
+         },
+         "Layer": "Back", //The tile the player is clicking is on the buildings layer.
+         "SetProperties": {
+           "Action": "OpenShop stegodandy.aaronshop_CustomShop 900 1700 45 9" //LockedDoorWarp that takes you to these coordinates INSIDE the house, then the name of the house, and then the opening and closing time.
+         },
+       },
+     ],
+     "When": { //Add a When condition using the Unique ID of Sunberry Village
+       "HasMod: |contains=stegodandy.aaronshop": true
+     },
+   },
+{
+     "Action": "EditMap",
+     "Target": "Maps/Forest", //Target the map you're adding your house to.
+     "MapTiles": [
+       {
+         "Position": { //The first coordinates we saved in the tutorial. 
+           "X": 107,
+           "Y": 84
+         },
+         "Layer": "Buildings", //The tile the player is clicking is on the buildings layer.
+         "SetProperties": {
+           "Action": "LockedDoorWarp 3 9 Custom_aaronshop_Aaronmain 700 1700" //LockedDoorWarp that takes you to these coordinates INSIDE the house, then the name of the house, and then the opening and closing time.
+         },
+       },
+     ],
+     "When": { //Add a When condition using the Unique ID of Sunberry Village
+       "HasMod: |contains=stegodandy.aaronshop": true
+     },
+   },
+   {
+     "Action": "EditMap",
+     "Target": "Maps/Custom_aaronshop_Aaronmain", //This time, we're targeting the INTERIOR of the house. 
+     "AddWarps": [
+       "3 10 Forest 107 85", //The first set of coordinates is where you want the player to step to LEAVE the house, the second set is where they will show up OUTSIDE the house, in the village.
+     ]
+   },
+ {
+     "Action": "EditMap",
+     "Target": "Maps/Custom_aaronshop_Aaronmain", //This time, we're targeting the INTERIOR of the house. 
+     "AddWarps": [
+       "3 -1 Custom_aaronshop_Aaronbed 3 10", //The first set of coordinates is where you want the player to step to LEAVE the house, the second set is where they will show up OUTSIDE the house, in the village.
+     ]
+   },
+   {
+     "Action": "EditMap",
+     "Target": "Maps/Custom_aaronshop_Aaronmain", //Target the map you're adding your house to.
+     "MapTiles": [
+       {
+         "Position": { //The first coordinates we saved in the tutorial. 
+           "X": 4,
+           "Y": 6
+         },
+         "Layer": "Buildings", //The tile the player is clicking is on the buildings layer.
+         "SetProperties": {
+           "Action": "OpenShop stegodandy.aaronshop_CustomShop 900 1700" 
+         },
+       },
+     ],
+     "When": { //Add a When condition using the Unique ID of Sunberry Village
+       "HasMod: |contains=stegodandy.aaronshop": true
+     },
+   },
+
+ ]
+}

@@ -1,0 +1,19 @@
+{
+	"Changes": 
+    [
+		{
+            "LogName": "Aaron Gift Taste Data",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries":
+            {
+                "aaronshop": "Are you sure you want me to have this? Thanks @, I love it!/139 749 608 589 444/Awe cool! I'll have to add this to my collection./717 348 248 268 287 338 392 536 583 395 772 787/Oh! Um, yeah sure, I'll take it, I guess.../426 456 457 574 609 614 628/I... I'm sorry, @, but I just can't take this.. eugh.../747 729 412 406 397 307 284 272 256 236 219 213 342/Oh! Sweet, thanks @./206 202 286 394 420 433 595/",
+				//Loves Salmon(139) Omni Geode(749) Pumpkin pie(608) Trilobite(589) Duck Feather (444)
+                //Likes Crab(717) Wine(348) Garlic(248) Starfruit(268) Bomb(287) Refined Quartz(338) Nautilus Shell(392) Frozen Geode(536) Prehistoric Rib(583) Coffee(395) Oil of Garlic(772) Battery Pack(787)
+                //Dislikes Goat Cheese(426) Algae Soup(456) Pale Broth(457) Mudstone(574) Radish Salad(609) Green Tea(614)
+                //Hates Rotten Plant(747) Escargot(729) Winter Root(412) Wild Plum(406) Sea Urchin(397) Duck Mayonnaise(307) Beet(284) Eggplant(272) Tomato(256) Pumpkin Soup(236) Trout Soup(219) Fish Taco(213) Pickles(342)
+			    //Neutral Pizza(206) Fried Calamari(202) Cherry Bomb(286) Rainbow Shell(394) Red Mushroom(420) Coffee Bean(433) Fairy Rose(595)
+            }
+		},
+]
+}
