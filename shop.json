@@ -13,7 +13,7 @@
                                 {
                                     "Id": "stegodandy.aaronshop_rainyday",
                                     "Condition": "WEATHER rain",
-                                    "Dialogue": "Let's wrap this up fast so you can get dry."
+                                    "Dialogue": "I've got some stuff here, garunteed to not have any rain damage!"
                                 },
 
                                 // dialogue any other time
@@ -75,6 +75,30 @@
                             "Condition": "DAY_OF_WEEK Tuesday",
                             "Price": 500,
                             "AvailableStock": 10,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "stegodandy.aaronshop_Geode",
+                            "ItemId": "(O)535",
+                            "Condition": "DAY_OF_WEEK Tuesday",
+                            "Price": 150,
+                            "AvailableStock": 5,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "stegodandy.aaronshop_FrozenGeode",
+                            "ItemId": "(O)536",
+                            "Condition": "DAY_OF_WEEK Wednesday",
+                            "Price": 300,
+                            "AvailableStock": 5,
+                            "AvailableStockLimit": "Player"
+                        },
+                                {
+                            "Id": "stegodandy.aaronshop_MagmaGeode",
+                            "ItemId": "(O)536",
+                            "Condition": "DAY_OF_WEEK Friday",
+                            "Price": 450,
+                            "AvailableStock": 5,
                             "AvailableStockLimit": "Player"
                         },
                     ]
